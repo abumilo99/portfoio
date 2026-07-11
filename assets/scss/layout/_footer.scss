@@ -1,0 +1,24 @@
+.footer {
+    background: #17263C;
+    border-top: 3px solid #F85C70;
+    
+    h5, h6 {
+        color: #fff;
+    }
+    
+    a {
+        transition: color 0.3s ease;
+        
+        &:hover {
+            color: #F85C70;
+        }
+    }
+    
+    .text-light {
+        opacity: 0.85;
+        
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
